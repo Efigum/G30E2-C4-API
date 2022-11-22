@@ -37,7 +37,7 @@ export class Vuelo extends Entity {
     type: 'string',
     required: true,
   })
-  asientos_vendido: string;
+  asientos_vendidos: string;
 
   @property({
     type: 'string',
